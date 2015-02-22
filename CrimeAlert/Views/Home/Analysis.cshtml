@@ -1,0 +1,144 @@
+﻿
+@{
+    ViewBag.Title = "Analysis";
+}
+
+<div class="row">
+    <div class="page-title">
+        <h2> Analysis</h2>
+    </div>
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-horizontal">
+                    <div class="form-group ">
+
+                        <div class="col-md-6 input-group-lg">
+                            <h3>City</h3>
+                            <select class="form-control" placeholder="City">
+                                <option>Multan</option>
+                                <option>Lahore</option>
+                                <option>Karachi</option>
+                                <option>Rawalpindi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 input-group-lg">
+                            <h3>Area</h3>
+                            <input type="text" class="form-control" value="Some text value...">
+                        </div>
+                    </div>
+                    <div class="form-group input-group-lg">
+                        <div class="col-md-6 input-group-lg">
+                            <h3>Duration</h3>
+                            <select class="form-control" placeholder="Duration">
+                                <option>Last 7 days</option>
+                                <option>Last 14 days</option>
+                                <option>Last Month</option>
+                                <option>Last Year</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 input-group-lg">
+                            <h3>Area</h3>
+                            <input type="text" class="form-control" value="Some text value...">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class=" col-md-6">
+                            <input type="button" value="GO" class="btn btn-danger btn-lg btn-block" />
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="widget widget-danger widget-item-icon" onclick="location.href='pages-messages.html';">
+            <h1 class="text-center" style="color:white">Last Crime Activity</h1>
+            <div class="widget-title">27/08/2014</div>
+        </div>
+        @*<!-- START WIDGET SLIDER -->
+            <div class="widget widget-default widget-carousel">
+                <div class="owl-carousel" id="owl-example">
+                    <div>
+                        <div class="widget-title">Total Visitors</div>
+                        <div class="widget-subtitle">27/08/2014 15:23</div>
+                        <div class="widget-int">3,548</div>
+                    </div>
+                    <div>
+                        <div class="widget-title">Returned</div>
+                        <div class="widget-subtitle">Visitors</div>
+                        <div class="widget-int">1,695</div>
+                    </div>
+                    <div>
+                        <div class="widget-title">New</div>
+                        <div class="widget-subtitle">Visitors</div>
+                        <div class="widget-int">1,977</div>
+                    </div>
+                </div>
+                <div class="widget-controls">
+                    <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
+                </div>
+            </div>
+            <!-- END WIDGET SLIDER -->*@
+        <!-- START WIDGET MESSAGES -->
+        <div class="widget widget-default widget-item-icon" onclick="location.href='pages-messages.html';">
+            <div class="row">
+                <div class="widget-item-left">
+                    <span class="fa fa-user"></span>
+                </div>
+                <div class="widget-data">
+                    <div class="widget-int num-count">48</div>
+                    <div class="widget-title">New messages</div>
+                    <div class="widget-subtitle">In your mailbox</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="widget-item-left">
+                    <span class="fa fa-envelope"></span>
+                </div>
+                <div class="widget-data">
+                    <div class="widget-int num-count">48</div>
+                    <div class="widget-title">New messages</div>
+                    <div class="widget-subtitle">In your mailbox</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="widget-item-left">
+                    <span class="fa fa-envelope"></span>
+                </div>
+                <div class="widget-data">
+                    <div class="widget-int num-count">48</div>
+                    <div class="widget-title">New messages</div>
+                    <div class="widget-subtitle">In your mailbox</div>
+                </div>
+            </div>
+            <!-- END WIDGET MESSAGES -->
+
+        </div>
+        <!-- START WIDGET REGISTRED -->
+        <div class="widget widget-default widget-item-icon" onclick="location.href='pages-address-book.html';">
+            <div class="widget-item-left">
+                <span class="fa fa-user"></span>
+            </div>
+            <div class="widget-data">
+                <div class="widget-int num-count">375</div>
+                <div class="widget-title">Registred users</div>
+                <div class="widget-subtitle">On your website</div>
+            </div>
+            <div class="widget-controls">
+                <a href="#" class="widget-control-right widget-remove" data-toggle="tooltip" data-placement="top" title="Remove Widget"><span class="fa fa-times"></span></a>
+            </div>
+            <!-- END WIDGET REGISTRED -->
+
+        </div>
+    </div>
+</div>
+
